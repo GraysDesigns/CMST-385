@@ -17,15 +17,10 @@ jobs:
   build-and-deploy:
 
     runs-on: windows-latest
-
-     steps:
-
+    steps:
     - uses: actions/checkout@main
-
     - name: Deploy to Azure Web App
-
       uses: azure/webapps-deploy@v1
-
       with:
 
       #Change the app-name to match what was provided to you in the publish settings file, this is in a naming convention of 'COURSENAME-STUDENTUID'
