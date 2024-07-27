@@ -1,9 +1,9 @@
 
-//font imports
+/* font imports */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
 
-//site specific styles
+/* site specific styles */
 body {
     background-color: #e4e4e4;
     display: flex;
@@ -61,7 +61,7 @@ p {
     line-height: normal;
 }
 
-//fonts
+/* fonts */
 .poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
