@@ -241,4 +241,17 @@ h1 {
     .menu li {
         font-size: 32px;
     }
+    .article-container {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .article-container p {
+        font-size: 18px;
+    }
+    .news-container {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
 }
