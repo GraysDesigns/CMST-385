@@ -21,7 +21,7 @@ body {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(8, 1fr);
     justify-content: space-between;
-    font-family: "Arial Narrow", Arial, sans-serif;
+    font-family: Verdana, "Arial Narrow", Arial, sans-serif;
 
     max-height: 100vh;
 }
@@ -29,6 +29,17 @@ body {
 h1 {
     font-size: 48px;
     font-weight: bold;
+    font-family: "Arial Narrow", Arial, sans-serif;
+}
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Arial Narrow", Arial, sans-serif;
+}
+p {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Arial Narrow", Arial, sans-serif;
 }
 
 
@@ -170,7 +181,8 @@ h1 {
 
 .container img {
     display: grid;
-    height: auto;
+    grid-row: 1 / 12;
+    height: 100%;
     max-width: 100%;
     margin-bottom: 0;
 }
