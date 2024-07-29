@@ -25,6 +25,24 @@ body {
     max-height: 100vh;
 }
 
+footer {
+    width: 100vw;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+}
+
+header {
+    width: 100vw;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+}
+
 h1 {
     font-size: 48px;
     font-weight: bold;
