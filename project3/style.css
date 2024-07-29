@@ -2,17 +2,17 @@ html, body {
     height: 100%;
 }
 @font-face {
-    font-family: 'Arial Narrow'
+    font-family: 'Arial Narrow';
     src: url(.\fonts\ARIALN.TTF) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Arial Narrow'
+    font-family: 'Arial Narrow';
     src: url(.\fonts\ARIALNB.TTF) format('truetype');
-    font-weight: normal;
-    font-style: bold;
+    font-weight: bold;
+    font-style: normal;
 }
 
 body {
@@ -106,7 +106,7 @@ p {
     font-size: 12px;
     text-decoration-line: none;
     text-align: left;
-    align-items: left;
+    align-items: start;
 }
 
 .album .image {
@@ -151,7 +151,7 @@ p {
 .article-container a {
     color: black;
     display: inline-block;
-    align-items: left;
+    align-items: start;
 }
 
 .article-container p {
